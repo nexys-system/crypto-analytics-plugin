@@ -1,11 +1,7 @@
-# Template typescript package
+# crypto-analytics-plugin
 
-[![npm version](https://img.shields.io/npm/v/@nexys/template.svg)](https://www.npmjs.com/package/@nexys/template)
-[![Build and Test Package](https://github.com/nexys-system/typescript-package-template/actions/workflows/test.yml/badge.svg)](https://github.com/nexys-system/typescript-package-template/actions/workflows/test.yml)
-[![Publish](https://github.com/nexys-system/typescript-package-template/actions/workflows/publish.yml/badge.svg)](https://github.com/nexys-system/typescript-package-template/actions/workflows/publish.yml)
+[![npm version](https://img.shields.io/npm/v/@nexys/crypto-analytics-plugin.svg)](https://www.npmjs.com/package/@nexys/crypto-analytics-plugin)
+[![Build and Test Package](https://github.com/nexys-system/crypto-analytics-plugin/actions/workflows/test.yml/badge.svg)](https://github.com/nexys-system/crypto-analytics-plugin/actions/workflows/test.yml)
+[![Publish](https://github.com/nexys-system/crypto-analytics-plugin/actions/workflows/publish.yml/badge.svg)](https://github.com/nexys-system/crypto-analytics-plugin/actions/workflows/publish.yml)
 ![Code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
-[![Bundlephobia](https://badgen.net/bundlephobia/min/@nexys/template)](https://bundlephobia.com/result?p=@nexys/template)
-
-## Config
-
-* `NPM_AUTH_TOKEN` is required for the CI and auto-publish
+[![Bundlephobia](https://badgen.net/bundlephobia/min/@nexys/crypto-analytics-plugin)](https://bundlephobia.com/result?p=@nexys/crypto-analytics-plugin)
