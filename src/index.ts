@@ -1,11 +1,13 @@
 const hostDefault = "https://etherscan.finy.ch/api";
 
-interface Addresses {
+export type Wallet = "metamask" | "phantom";
+
+export interface Addresses {
   solana?: string;
   ethereum?: string;
 }
 
-class Client {
+export class Client {
   host: string;
 
   /**
@@ -17,6 +19,7 @@ class Client {
   constructor(
     clientId: string,
     addresses: Addresses,
+    wallet?: Wallet,
     host: string = hostDefault
   ) {
     this.host = host;
@@ -25,6 +28,7 @@ class Client {
       clientId,
       solana: addresses.solana,
       ethereum: addresses.ethereum,
+      wallet,
     });
   }
 
@@ -32,6 +36,7 @@ class Client {
     clientId: string;
     solana?: string;
     ethereum?: string;
+    wallet?: Wallet;
   }): Promise<{ reponse: true }> => {
     const headers = { "content-type": "application/json" };
     const body = JSON.stringify(payload);
